@@ -1,28 +1,29 @@
-# Gerenciador de Senhas
-- Utilizando python puro
+# Password Manager
+- Using pure Python
 
-## Função
-Este projeto e um projete de console, porem pode evoluir para algo maior.
-Consite em um gerenciador de senhas, no qual o usuario salva suas senhas de acordo um dominio, a sera gravada no db cryptogradas utilizando um biblioteca python, e para acessar a senha e necessario que o usuario entre com um token de autorização.
+## Function
+This project is a console application, but it can evolve into something bigger. It consists of a password manager where the user saves their passwords associated with a domain. The passwords are stored in a database encrypted using a Python library. To access the passwords, the user must enter an authorization token.
 
-
-## Tecnologias
+## Technologies
 - Python
 - cryptography
 
-## Como usar
-- (Opcional) crie um ambiente virtual python
-- ative ele
+## How to use
+
+- (Optional) create a Python virtual environment
+- Activate it
+
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
-- instale o cyptography
+- Install cryptography
     ```
         pip install cyptography
     ```
 
-- Execute o template para rodar a aplicação
+- Run the template to execute the application
+
     ``` 
         python templates/template.py
     ```
